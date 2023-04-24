@@ -34,7 +34,7 @@ use yii\di\Instance;
  * @property-read ParserInterface $parser
  * @property-read ValidatorInterface $validator
  */
-final class Jwt extends Component implements JwtSigner, JwtKey
+class Jwt extends Component implements JwtSigner, JwtKey
 {
 
     /**
